@@ -10,9 +10,11 @@
 
  For this configuration, each email contains an id and based on this one the queries are run and the results are iterated to get the reports
 
+ is reusable code and more features are being added.
+ 
  Added a link test to check if a link is correct or not.
 
  Can enable or disable tests commenting or uncommenting. 
 
- Can work with different languages as long as is supported by utf-8 enconding. 
+ Can work with different languages and countries as defined as long as is supported by utf-8 enconding. 
 
