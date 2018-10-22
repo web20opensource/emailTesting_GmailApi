@@ -16,5 +16,5 @@
 
  Can enable or disable tests commenting or uncommenting. 
 
- Can work with different languages and countries as defined as long as is supported by utf-8 enconding. 
+ Can work with different languages and countries as defined as long as is supported by utf-8 enconding. However a new encoding can be added as well. 
 
