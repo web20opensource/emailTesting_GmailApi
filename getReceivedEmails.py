@@ -1,6 +1,6 @@
 #title           :getReceivedEmails.py
 #description     :This script will get a summary of the emails delivered after triggered/delivered by Email Service
-#dependencies     :GMAIL API, python 3.6, messages.py, allPossibleEmails.py , testLinks.py, messages.py
+#dependencies     :GMAIL API, python 3.6, messages.py, allPossibleEmails.py , testLinks.py
 #author             :Mario Ruiz <web2.0opensource@gmail.com>
 #date            :09/18/2017
 #version         :1    
@@ -358,110 +358,6 @@ def main():
         testEmailExists (emailIds,allPossibleEmails['USA-EN'],emailsNotFound)
         # run usa-es tests
         testEmailExists (emailIds,allPossibleEmails['USA-ES'],emailsNotFound)
-        # run wap-en tests
-        testEmailExists (emailIds,allPossibleEmails['WAP-EN'],emailsNotFound) 
-        # run wap-es tests
-        testEmailExists (emailIds,allPossibleEmails['WAP-ES'],emailsNotFound)
-        # run aus-en tests
-        testEmailExists (emailIds,allPossibleEmails['AUS-EN'],emailsNotFound) 
-
-        #CAN-13
-        # run can-en tests
-        testEmailExists (emailIds,allPossibleEmails['CAN-EN'],emailsNotFound) 
-        # run can-fr tests
-        testEmailExists (emailIds,allPossibleEmails['CAN-FR'],emailsNotFound) 
-
-        #CP-93
-        # run postcan-en tests
-        testEmailExists (emailIds,allPossibleEmails['POSTCAN-EN'],emailsNotFound) 
-        # run postcan-fr tests
-        testEmailExists (emailIds,allPossibleEmails['POSTCAN-FR'],emailsNotFound) 
-
-        # run bhs-en tests
-        #testEmailExists (emailIds,allPossibleEmails['BHS-EN'],emailsNotFound) 
-        # run deu-en tests
-        testEmailExists (emailIds,allPossibleEmails['DEU-EN'],emailsNotFound) 
-        # run deu-de tests
-        testEmailExists (emailIds,allPossibleEmails['DEU-DE'],emailsNotFound) 
-        # run esp-en tests
-        testEmailExists (emailIds,allPossibleEmails['ESP-EN'],emailsNotFound) 
-        # run esp-es tests
-        testEmailExists (emailIds,allPossibleEmails['ESP-ES'],emailsNotFound) 
-        # run fra-en tests
-        testEmailExists (emailIds,allPossibleEmails['FRA-EN'],emailsNotFound) 
-        # run fra-fr tests
-        testEmailExists (emailIds,allPossibleEmails['FRA-FR'],emailsNotFound) 
-        # run gbr-en tests
-        testEmailExists (emailIds,allPossibleEmails['GBR-EN'],emailsNotFound) 
-        # run jpn-en tests
-        #testEmailExists (emailIds,allPossibleEmails['JPN-EN'],emailsNotFound) 
-        
-        #CCPS        
-        #CPP-25
-        # run mex-en tests
-        testEmailExists (emailIds,allPossibleEmails['MEX-EN'],emailsNotFound) 
-        # run bra-en tests
-        testEmailExists (emailIds,allPossibleEmails['BRA-EN'],emailsNotFound) 
-
-
-        # BUCKET SITES - PHASE 1&2
-        # MCT-1900, MCT-1950, MCT-1995, BUCKET-42
-        # run nld-en tests
-        testEmailExists (emailIds,allPossibleEmails['NLD-EN'],emailsNotFound) 
-        # run nor-en tests
-        testEmailExists (emailIds,allPossibleEmails['NOR-EN'],emailsNotFound)         
-        # run pol-en tests
-        testEmailExists (emailIds,allPossibleEmails['POL-EN'],emailsNotFound)         
-        # run prt-en tests
-        testEmailExists (emailIds,allPossibleEmails['PRT-EN'],emailsNotFound)         
-        # run prt-en tests
-        testEmailExists (emailIds,allPossibleEmails['SWE-EN'],emailsNotFound) 
-        # run irl-en tests
-        testEmailExists (emailIds,allPossibleEmails['IRL-EN'],emailsNotFound) 
-        # run dnk-en tests
-        testEmailExists (emailIds,allPossibleEmails['DNK-EN'],emailsNotFound)
-        # run aut-en tests
-        testEmailExists (emailIds,allPossibleEmails['AUT-EN'],emailsNotFound) 
-        # run bel-en tests
-        testEmailExists (emailIds,allPossibleEmails['BEL-EN'],emailsNotFound) 
-        # run grc-en tests
-        testEmailExists (emailIds,allPossibleEmails['GRC-EN'],emailsNotFound) 
-
-        # BUCKET SITES - PHASE 3
-        # run ita-en tests
-        testEmailExists (emailIds,allPossibleEmails['ITA-EN'],emailsNotFound) 
-        # run ita-it tests
-        testEmailExists (emailIds,allPossibleEmails['ITA-IT'],emailsNotFound) 
-        # run bgr-en tests
-        testEmailExists (emailIds,allPossibleEmails['BGR-EN'],emailsNotFound) 
-        # run hrv-en tests
-        testEmailExists (emailIds,allPossibleEmails['HRV-EN'],emailsNotFound) 
-        # run cze-en tests
-        testEmailExists (emailIds,allPossibleEmails['CZE-EN'],emailsNotFound) 
-        # run est-en tests
-        testEmailExists (emailIds,allPossibleEmails['EST-EN'],emailsNotFound) 
-        # run fin-en tests
-        testEmailExists (emailIds,allPossibleEmails['FIN-EN'],emailsNotFound) 
-        # run hun-en tests
-        testEmailExists (emailIds,allPossibleEmails['HUN-EN'],emailsNotFound) 
-        # run isl-en tests
-        testEmailExists (emailIds,allPossibleEmails['ISL-EN'],emailsNotFound) 
-        # run lva-en tests
-        testEmailExists (emailIds,allPossibleEmails['LVA-EN'],emailsNotFound) 
-        # run ltu-en tests
-        testEmailExists (emailIds,allPossibleEmails['LTU-EN'],emailsNotFound) 
-        # run lux-en tests
-        testEmailExists (emailIds,allPossibleEmails['LUX-EN'],emailsNotFound) 
-        # run mlt-en tests
-        testEmailExists (emailIds,allPossibleEmails['MLT-EN'],emailsNotFound) 
-        # run rou-en tests
-        testEmailExists (emailIds,allPossibleEmails['ROU-EN'],emailsNotFound) 
-        # run svk-en tests
-        testEmailExists (emailIds,allPossibleEmails['SVK-EN'],emailsNotFound) 
-        # run svn-en tests
-        testEmailExists (emailIds,allPossibleEmails['SVN-EN'],emailsNotFound) 
-        # run che-en tests
-        testEmailExists (emailIds,allPossibleEmails['CHE-EN'],emailsNotFound) 
 
         if ( len(emailsNotFound) > 0 ):
             print ("emails not found:")
