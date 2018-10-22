@@ -1,6 +1,6 @@
 # emailTesting_GmailApi
 
-A project created as a necessity to test email delivery process in a huge amount.
+## A project created as a necessity to test email delivery process in a huge amount.
 
 ### It uses the free version of the Gmail API
 
