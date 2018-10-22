@@ -4,7 +4,7 @@
 
  It uses the free version of the Gmail API
 
- Based on the Gmail Api examples shown on the developer page.
+ Based on the Gmail Api examples shown on the developer page. https://developers.google.com/gmail/api/quickstart/python
 
  Each email contains an id and based on this one the queries are run and the results are iterated to get the reports
 
